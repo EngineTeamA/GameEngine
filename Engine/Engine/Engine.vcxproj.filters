@@ -30,7 +30,13 @@
     <ClCompile Include="src\main\main.cpp">
       <Filter>Source Files\main</Filter>
     </ClCompile>
-    <ClCompile Include="include\threads\ThreadsManager.cpp">
+    <ClCompile Include="src\threads\BaseWrapperThread.cpp">
+      <Filter>Source Files\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="src\threads\ThreadsManager.cpp">
+      <Filter>Source Files\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="src\threads\ThreadWithCommonBuffer.cpp">
       <Filter>Source Files\threads</Filter>
     </ClCompile>
   </ItemGroup>
@@ -39,6 +45,9 @@
       <Filter>Header Files\threads</Filter>
     </ClInclude>
     <ClInclude Include="include\threads\BaseWrapperThread.h">
+      <Filter>Header Files\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="include\threads\ThreadWithCommonBuffer.h">
       <Filter>Header Files\threads</Filter>
     </ClInclude>
   </ItemGroup>
