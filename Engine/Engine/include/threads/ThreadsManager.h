@@ -4,15 +4,13 @@
 #include <vector>
 #include <functional>
 
-#include "BaseWrapperThread.h"
-
 class ThreadsManager
 {
 private:
-	std::vector<BaseWrapperThread> m_Threads;
+	std::vector<std::thread> m_Threads;
 
 public:
-	ThreadsManager();
+	ThreadsManager(const std::initializer_list<std::function<void()>>& in_FunctionList);
 	~ThreadsManager();
 	
 };

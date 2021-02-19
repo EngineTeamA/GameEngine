@@ -20,14 +20,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main\main.cpp" />
-    <ClCompile Include="src\threads\BaseWrapperThread.cpp" />
     <ClCompile Include="src\threads\ThreadsManager.cpp" />
-    <ClCompile Include="src\threads\ThreadWithCommonBuffer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\threads\BaseWrapperThread.h" />
     <ClInclude Include="include\threads\ThreadsManager.h" />
-    <ClInclude Include="include\threads\ThreadWithCommonBuffer.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
