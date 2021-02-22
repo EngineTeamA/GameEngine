@@ -30,15 +30,12 @@
     <ClCompile Include="src\main\main.cpp">
       <Filter>Source Files\main</Filter>
     </ClCompile>
-    <ClCompile Include="include\threads\ThreadsManager.cpp">
+    <ClCompile Include="src\threads\ThreadsManager.cpp">
       <Filter>Source Files\threads</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\threads\ThreadsManager.h">
-      <Filter>Header Files\threads</Filter>
-    </ClInclude>
-    <ClInclude Include="include\threads\BaseWrapperThread.h">
       <Filter>Header Files\threads</Filter>
     </ClInclude>
   </ItemGroup>

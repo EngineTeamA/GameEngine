@@ -10,9 +10,7 @@ private:
 	std::vector<std::thread> m_Threads;
 
 public:
-	using FunctionList = std::initializer_list<std::function<void()>>;
-
-	ThreadsManager(const FunctionList& in_Functions);
+	ThreadsManager(const std::initializer_list<std::function<void()>>& in_FunctionList);
 	~ThreadsManager();
 	
 };

@@ -19,11 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="include\threads\ThreadsManager.cpp" />
     <ClCompile Include="src\main\main.cpp" />
+    <ClCompile Include="src\threads\ThreadsManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\threads\BaseWrapperThread.h" />
     <ClInclude Include="include\threads\ThreadsManager.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
